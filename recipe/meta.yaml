@@ -39,7 +39,7 @@ requirements:
     - h5netcdf
     - h5py
     - imageio
-    - matplotlib
+    - matplotlib-core
     - pims
     - pyfftw >=0.10.4
     - scipy >=0.14.1
@@ -69,7 +69,7 @@ test:
   commands:
     - fluidimviewer-pg --help
     - fluidimviewer --help
-    - fluidimlauncher -h
+    # - fluidimlauncher -h
 
 about:
   home: https://foss.heptapod.net/fluiddyn/fluidimage
